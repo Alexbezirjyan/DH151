@@ -29,5 +29,5 @@ body {
     background-color: rgb(120, 118, 245);
 }
 .content {
-	grid-area: content;
+	grid-area: content; 
 }
