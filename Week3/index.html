@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Locations</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="CSS/style.css">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+	<div class="header">
+		<h1 style="color:rgb(9, 199, 247)"><a href="https://www.merriam-webster.com/dictionary/fishing">FISHING</a> &nbsp;
+      
+            
+
+	</div>
+	<div class="sidebar">
+		Places Of Intrest
+        <h2 style="color:rgb(89, 62, 245)">Where do I want to Fish Next? &nbsp;</h2>
+        <p>Each marker on the map indicates a desired location that I would want to fish around.</p>
+	</div>
+	<div class="content">
+		<div id="map" class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom leaflet-drag-target" tabindex="0" 
+        style="position: relative; outline: none;"> 
+        <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d (-211px, 446px, 0px) ;">
+        <div class="leaflet-pane leaflet-tile-pane">
+        <div class="leaflet-layer" style="z-index: 1; opacity: 1;">
+        <div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 16; transform: translate3d(231px, 325px, 0px) scale(0.25);">
+        <div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 17; transform: translate3d(198px, 291px, 0px) scale(0.5);">
+        <div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(132px, 291px, 0px) scale(1);">
+            <img alt="" role="presentation" src="https://a.tile.openstreetmap.org/0/0/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-5px, 0px, 0px); opacity: 1;">
+            <img alt="" role="presentation" src="https://a.tile.openstreetmap.org/0/0/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(251px, 0px, 0px); opacity: 1;">
+            <img alt="" role="presentation" src="https://a.tile.openstreetmap.org/0/0/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-261px, 0px, 0px); opacity: 1;">
+            <img alt="" role="presentation" src="https://a.tile.openstreetmap.org/0/0/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-517px, 0px, 0px); opacity: 1;">
+            <img alt="" role="presentation" src="https://a.tile.openstreetmap.org/0/0/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(507px, 0px, 0px); opacity: 1;">
+           
+            </div>
+        </div>
+	</div>
+    <div class="leaflet-pane leaflet-shadow-pane"></div>
+    <div class="leaflet-pane leaflet-overlay-pane"></div>
+    <div class="leaflet-pane leaflet-marker-pane"></div>
+         <div class="leaflet-pane leaflet-tooltip-pane"></div>
+    <div class="leaflet-pane leaflet-popup-pane"></div>
+    <div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(136.5px, 79.5px, 0px) scale(0.5);"></div>
+        </div>
+        <div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out leaflet-disabled" href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</div></div></div>
+        </div>
+        </div>
+
+
+ <!-- map javascript -->
+<script src="js/map.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
