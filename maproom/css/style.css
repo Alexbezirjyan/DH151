@@ -10,8 +10,8 @@ body,html {
 
 body {
 	display: grid;
-	grid-template-rows: 80px 1fr 50px;
-	grid-template-columns: 50% 50%;
+	grid-template-rows: 100px 1fr 50px;
+	grid-template-columns: 400px 1fr;
 	grid-template-areas: 
 	"header header"
 	"sidebar content"
@@ -19,18 +19,21 @@ body {
 }
 
 .header {
+	background-image:url("https://cdn.wallpapersafari.com/22/40/PzkdJo.jpg");
 	grid-area: header;
 	padding:10px;
-	background-color: #333;
-	color: white;
+	background-color: rgb(115, 114, 116);
+	color: rgb(1, 78, 97);
 	font-size: 2em;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: 900;
 }
 
 .sidebar {
 	color: white;
 	grid-area: sidebar;
 	padding:10px;
-	background-color: #555;
+	background-color: rgb(7, 215, 252);
 	overflow: auto;
 }
 

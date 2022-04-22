@@ -5,7 +5,7 @@ let lon = 0;
 let zl = 3;
 
 // path to csv data
-let path = "data/dunitz.csv";
+let path = "data/fish.csv";
 
 
 // global variables
@@ -64,10 +64,14 @@ function mapCSV(data){
 		// add marker to featuregroup		
 		markers.addLayer(marker)
 
-        // add entry to sidebar
-		$('.sidebar').append(`<img src="${item.thumbnail_url}" onmouseover="panToImage(${index})">`)
 
+      // add data to sidebar
+ $('.sidebar').append(`<div class="sidebar-item" onclick="flyToIndex(${index})">${item.title}</div>`)
+  
+  
 	})
+
+	
 
 	// add featuregroup to map
 	markers.addTo(map)
