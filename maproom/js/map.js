@@ -66,10 +66,18 @@ function mapCSV(data){
 
 
       // add data to sidebar
- $('.sidebar').append(`<div class="sidebar-item" onclick="flyToIndex(${index})">${item.title}</div>`)
-  
-  
+
+
+ $(".sidebar").append(`<div class ="sidebar-item" onclick= "map.flyTo([44.2510,-116.9693], 12)"> Weiser </div>`)
+ $(".sidebar").append(`<div class ="sidebar-item" onclick= "map.flyTo([40.0150,-105.2705], 12)"> Boulder </div>`)
+ $(".sidebar").append(`<div class ="sidebar-item" onclick= "map.flyTo([42.2808,-83.7430], 12 )"> Ann Arbor </div>`)
+ $(".sidebar").append(`<div class ="sidebar-item" onclick= "map.flyTo([52.9399,-106.4509], 12)"> Saskatchewan </div>`)
+ $(".sidebar").append(`<div class ="sidebar-item" onclick= "map.flyTo([44.4280,-110.5885], 12)"> Yellowstone </div>`)
+
 	})
+
+
+	
 
 	
 

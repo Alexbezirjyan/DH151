@@ -37,6 +37,21 @@ body {
 	overflow: auto;
 }
 
+.sidebar-item {
+    padding: 8px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(5, 109, 112);
+    margin: 3px;
+}
+.sidebar-item:hover {
+    background: rgb(255, 91, 94);
+    border: 5px rgb(25, 203, 234);
+    margin: 5px;
+    cursor: pointer;
+    transition: all .2s linear;
+  border-style: inset;
+}
+
 .content {
 	grid-area: content;
 }
