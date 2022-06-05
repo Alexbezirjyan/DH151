@@ -6,7 +6,7 @@ let zl = 3;
 let path = '';
 
 // put this in your global variables
-let geojsonPath = 'data/mhv.geojson';
+let geojsonPath = 'data/LAcounty_combined.geojson';
 let geojson_data;
 let geojson_data_right;
 let geojson_layer;
@@ -50,7 +50,7 @@ function getGeoJSON(){
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON('LAcounty_medianhousevalue_2020_MEDIANHOUSEVALUE_2020', 6, "Oranges", 'equal_interval') // add a field to be used
+		mapGeoJSON('LAcounty_medianhouseholdincome_2020_MEDIANHOUSEHOLDINCOME_2020', 6, "Oranges", 'equal_interval') // add a field to be used
 	})
 }
 

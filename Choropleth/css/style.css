@@ -27,12 +27,12 @@ body {
 
 .header {
 	grid-area: header;
-	text-align: left;
+	text-align: center;
 	padding:10px;
-	background-color: rgb(14, 109, 233);
+	background-color: #333;
 	color: white;
 	font-size: 2em;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navigation {
