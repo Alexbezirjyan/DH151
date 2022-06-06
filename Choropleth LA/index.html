@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Choropleth</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- classy brew -->
+	<script src="js/classybrew.js"></script>
+
+	<!-- leaflet side by side-->
+	<script src="data/leaflet-side-by-side.js"></script>
+</head>
+<body>
+
+	<div class="header">
+		<b>PUBLIC DOLLARS AND PRIVATE STADIUMS: DODGERS STADIUM</b>
+	</div>
+	<div class="navigation">
+		
+		<div class="map-item" onclick="mapGeoJSON('LAcounty_medianhouseholdincome_2020_MEDIANHOUSEHOLDINCOME_2020',6,'Oranges','equal_interval');">Median Household Income in 2020</div>
+		<div class="map-item" onclick="mapGeoJSON('LAcounty_medianhouseholdincome_1990_MEDIANHOUSEHOLDINCOME_1990',6,'Oranges','equal_interval');">Median Household Income in 1990</div>
+		<div class="map-item" onclick="mapGeoJSON('LAcounty_medianhousevalue_2020_MEDIANHOUSEVALUE_2020',6,'Blues','equal_interval');">Median House Value in 2020</div>
+		<div class="map-item" onclick="mapGeoJSON('LAcounty_medianhousevalue_1990_MEDIANHOUSEVALUE_1990',6,'Blues','equal_interval');">Median House Value in 1990</div>
+	</div>
+
+
+	
+	<div class="content">
+		<div id="map"></div>
+	</div>
+
+	
+	<!-- <script src="js/map.js"></script> -->
+	<script src="js/map.js"></script>
+
+</body>
+</html>
